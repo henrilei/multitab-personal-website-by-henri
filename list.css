@@ -1,0 +1,125 @@
+.ordered {
+    background: #f7ede179;
+    padding: 10px ;
+    width: 50% ;
+    margin-left: auto ; /* 20px (originaly) */
+    font-family: 'Papyrus', cursive ;
+    font-size: 1.3m;
+    margin-right: auto; /* (remove originaly) */
+}
+.ordered li {
+    background: #f3f0ec;
+    padding: 5px;
+    margin: 0px 0px 5px 20px;
+}
+.nested-in-ol li {
+    background: #678fb4;
+    padding: 5px;
+    margin-left: 0px;
+}
+.unordered {
+    list-style-type: square;
+    line-height: 170%;
+    font-family: 'Papyrus', cursive ;
+    background: #f7ede179 ; /* #f7ede141 */
+    padding: 10px ;
+    width: 50% ; /* 50% original */
+    margin-left: auto; ; /* margin-left: 20px ; (original */
+    font-size: 1.3m;
+    margin-right: auto; /* (remove originaly) */
+
+}
+.unordered li {
+    background: #f3f0ec;
+    padding: 5px;
+    margin: 0px 0px 5px 20px;
+
+
+}
+.nested-ul {
+    list-style: none;
+}
+.ordered-1 {
+    background: #292929 ;
+    padding: 5px ;
+    width: 26% ;
+    margin-left: 5px ;
+    font-family: 'Papyrus', cursive ;
+    font-size: 1m;
+    list-style-type: none;
+}
+.ordered-1 li {
+    background: #fefbfb;
+    padding: 5px;
+    margin: 2px 2px 2px 2px;
+}
+.masthead-intro {
+    /* Layout Declarations */
+    color: #F1C863;
+    margin-top: -0.2em;
+    /* Typography Declarations */
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.center {
+    text-align: center;
+    width: 51.4%;
+    background-color:#f7ede179 ;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+}
+/* */
+.content-footer {
+    margin: 50px 0;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #73A8C2;
+    text-decoration: none;
+  }
+  .social > li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  .content-footer > p {
+    color: #F7EDE1;
+  }
+  a {
+      font-weight: bold;
+      text-decoration: none;
+      color: #F1C863;
+  }
+
+/* test part */
+  body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.masthead-heading {
+    /* Layout Declarations */
+    margin-bottom: 0.1em;
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+    text-align: center;
+    color: #F1C863;
+    padding-bottom: 10px;
+}
+.header-1 {
+    background: #29292957 ;
+    padding:5px ;
+    width: 50% ;
+    font-family: 'Papyrus', cursive ;
+    font-size: 1m;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}

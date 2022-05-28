@@ -1,0 +1,74 @@
+body {
+    margin:0;
+    padding:0;
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(38, 38, 38, 0.5);
+    width: 100;
+    overflow: hidden;
+    border: 1px solid #555;
+}
+
+
+.navbar li {
+float:right;
+text-align: center;
+border-right: 1px solid #555;
+
+}
+.navbar li a{
+display:block;
+color: rgb(0, 0, 0);
+padding: 14px 16px;
+text-decoration: none;
+font-size: large;
+
+}
+.navbar li a:hover {
+background: #111;
+color: white;
+
+}
+.index-class1{
+    background-image: url(macarena.MOV);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.tab2-class2{
+    background-image: url(https://wallpaperaccess.com/full/819751.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+/*     background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(226,202,213,1) 35%, rgba(230,79,79,1) 100%); */
+}
+.tab4-class4{
+    background-image: url(https://wallpaperaccess.com/full/2339295.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     }
+    
+
+.logo img{
+    position:absolute;
+    margin-top:0px;
+    margin-left:0px;
+    width: 62px;
+    top: 0px;
+
+}
+
+.zoom {
+    padding: 42px;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 275px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
